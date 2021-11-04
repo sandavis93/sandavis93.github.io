@@ -1,5 +1,5 @@
 body {
-    background: pink;
+    background:#FF1493;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -8,14 +8,29 @@ body {
     padding:10px;
     margin:10px;
     background:lightgray;
+    border-radius:10px;
 }
 
 .assignment img {
 width:200px;
-padding:10px;    
+margin:10px;
+border:4px solid #2F4F4F   
+}
+
+.assignment img:hover {
+    border:4px dashed #FF1493 
 }
 
 h1 {
-    color: darkorchid;
+    color:#2F4F4F;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:#2F4F4F
+}
+
+a:hover{
+    color:#FF1493;
 }
